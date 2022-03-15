@@ -6,8 +6,8 @@
   "author": "Steven Yi <stevenyi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "csound --env:SFDIR+=./node_modules --env:INCDIR+=./node_modules realtime.csd",
-    "render": "csound --env:SFDIR+=./node_modules --env:INCDIR+=./node_modules disk.csd"
+    "start": "csound --env:SSDIR+=./node_modules --env:INCDIR+=./node_modules realtime.csd",
+    "render": "csound --env:SSDIR+=./node_modules --env:INCDIR+=./node_modules disk.csd"
   },
   "dependencies": {
     "@kunstmusik/libsyi": "^1.0.0"
